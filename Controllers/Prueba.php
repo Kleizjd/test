@@ -14,7 +14,7 @@ class Prueba extends Controllers{
 		$data['page_functions_js'] = "functions_prueba.js";
 		$this->views->getView($this,"prueba",$data);
 	}
-	public function setCliente(){
+	public function setPrueba(){
 		if($_POST){			
 			if(empty($_POST['txtIdentificacion']) || empty($_POST['txtNombre']) || empty($_POST['txtApellido']) || empty($_POST['txtTelefono']) || empty($_POST['txtEmail']))
 			{

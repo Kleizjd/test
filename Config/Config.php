@@ -1,9 +1,8 @@
 <?php 
 	const BASE_URL = "http://localhost/www/test";
-	//const BASE_URL = "https://abelosh.com/tiendavirtual";
 
 	//Zona horaria
-	date_default_timezone_set('America/Guatemala');
+	date_default_timezone_set('America/Bogota');
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
@@ -34,10 +33,10 @@
 	//const SECRET = "";
 
 	//Datos envio de correo
-	const NOMBRE_REMITENTE = "Tienda Virtual";
+	const NOMBRE_REMITENTE = "TEST JD";
 	// const EMAIL_REMITENTE = "no-reply@abelosh.com";
 	const EMAIL_REMITENTE = "jose.jdgo97@gmail.com";
-	const NOMBRE_EMPESA = "Tienda Virtual";
+	const NOMBRE_EMPESA = "TEST JD";
 	const WEB_EMPRESA = "www.abelosh.com";
 
 	const DESCRIPCION = "La mejor tienda en línea con artículos de moda.";

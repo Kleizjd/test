@@ -1,5 +1,5 @@
        <?php headerAdmin($data);
-		getModal('modalClientes', $data); 
+		getModal('modalPrueba', $data); 
 		?>
        <!-- page content -->
        <main class="app-content">
@@ -9,7 +9,7 @@
        				<div class="x_title">
        					<h2>Reporte de Usuario <small>Reporte de Actividad</small></h2>
        					<ul class="nav navbar-right panel_toolbox">
-       						<li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+       						<li>
        						</li>
        					</ul>
        					<div class="clearfix"></div>
@@ -19,7 +19,7 @@
        					<div class="col-md-12 col-sm-12 ">
        						<div class="profile_title">
        							<div class="col-md-6">
-       								<h2>User Activity Report</h2>
+       								<!-- <h2>User Activity Report</h2>  -->
        							</div>
        						</div>
        						<!-- start of user-activity-graph -->

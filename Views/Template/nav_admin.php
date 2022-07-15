@@ -6,19 +6,25 @@
         </div>
       </div>
       <ul class="app-menu">
-        <li>
+        <!-- <li>
             <a class="app-menu__item" href="<?= base_url(); ?>" target="_blank">
                 <i class="app-menu__icon fa fas fa-globe" aria-hidden="true"></i>
                 <span class="app-menu__label">Ver sitio web</span>
             </a>
-        </li>
+        </li> -->
         <li>
-            <a class="app-menu__item" href="<?= base_url(); ?>/dashboard">
+            <a class="app-menu__item" href="<?= base_url(); ?>/prueba">
                 <i class="app-menu__icon fa fa-dashboard"></i>
-                <span class="app-menu__label">Dashboard</span>
+                <span class="app-menu__label">Prueba</span>
             </a>
         </li>
-        <li class="treeview">
+        <li>
+            <a class="app-menu__item" href="<?= base_url(); ?>/vista">
+            <i class="fa fa-archive" aria-hidden="true"></i>
+                <span class="app-menu__label">Vista</span>
+            </a>
+        </li>
+        <!-- <li class="treeview">
             <a class="app-menu__item" href="#" data-toggle="treeview">
                 <i class="app-menu__icon fa fa-users" aria-hidden="true"></i>
                 <span class="app-menu__label">Usuarios</span>
@@ -29,14 +35,15 @@
                 <li><a class="treeview-item" href="<?= base_url(); ?>/roles"><i class="icon fa fa-circle-o"></i> Roles</a></li>
             </ul>
         </li>
-        
+         -->
         <li>
-            <a class="app-menu__item" href="<?= base_url(); ?>/clientes">
-                <i class="app-menu__icon fa fa-user" aria-hidden="true"></i>
-                <span class="app-menu__label">Clientes</span>
+            <a class="app-menu__item" href="<?= base_url(); ?>/producto">
+            <i class="fa fa-product-hunt" aria-hidden="true"></i>
+                <!-- <i class="app-menu__icon fa fa-user" aria-hidden="true"></i> -->
+                <span class="app-menu__label">Producto</span>
             </a>
         </li>
-        <li class="treeview">
+        <!-- <li class="treeview">
             <a class="app-menu__item" href="#" data-toggle="treeview">
                 <i class="app-menu__icon fa fa-archive" aria-hidden="true"></i>
                 <span class="app-menu__label">Tienda</span>
@@ -81,5 +88,5 @@
                 <span class="app-menu__label">Logout</span>
             </a>
         </li>
-      </ul>
+      </ul> -->
     </aside>
